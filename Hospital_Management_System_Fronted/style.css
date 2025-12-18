@@ -1,0 +1,166 @@
+body {
+    /* width: 1200px; */
+    /* border: 1px solid gray; */
+    margin: auto;
+    background-color: rgb(238, 235, 225);
+}
+
+.logo_imgs {
+    color: yellow;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: rgb(60, 90, 7);
+}
+
+.menu {
+    font-size: 20px;
+    color: yellow;
+}
+
+.menu:hover {
+    color: white;
+    cursor: pointer;
+
+}
+
+.login-container {
+    /* border: 1px solid #555; */
+    border-radius: 5px;
+    background-color: rgb(149, 185, 20);
+    padding: 2px 15px;
+    color: black;
+}
+
+
+/* bannger image */
+
+.banner-container {
+    width: 1200px;
+    /* height: 500px; */
+    margin: auto;
+    padding: 30px;
+}
+
+.banner {
+    height: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(238, 238, 38), rgb(82, 136, 38));
+    box-shadow: 4px 4px 8px rgb(115, 134, 75);
+    border-radius: 10px;
+    /* padding: 30px; */
+}
+
+.ban-img {
+    width: 370px;
+    height: 550px;
+    margin-top: -50px;
+}
+
+
+/* services form here */
+
+.service-container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.service-title {
+    font-size: 44px;
+    color: rgb(115, 145, 5);
+    text-align: center;
+}
+
+
+
+/* all doctros form here */
+
+.doctors-container {
+    width: 1200px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.doctor-card {
+    width: 280px;
+    height: 380px;
+    box-shadow: 4px 4px 8px rgb(115, 134, 75);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.doctor-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+#search {
+    padding: 10px;
+    width: 85%;
+    border: none;
+}
+
+.nodata {
+    display: none;
+}
+
+#spinner {
+    display: none;
+}
+
+
+/* review form here */
+
+.review-container {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.review-title {
+    font-size: 44px;
+    color: rgb(115, 145, 5);
+    text-align: center;
+}
+
+.review-card {
+    width: 250px;
+    height: 270px;
+    box-shadow: 4px 4px 8px rgb(115, 134, 75);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.review-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+
+
+/* footer here */
+
+footer {
+    padding: 50px;
+    background: linear-gradient(rgb(81, 112, 28), rgb(119, 160, 23));
+}
+
+.footer-title {
+    color: yellow;
+}
