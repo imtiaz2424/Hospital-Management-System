@@ -10,7 +10,14 @@ body {
 }
 
 li {
-    list-style: none;
+    list-style-type: none;        
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+a:hover{    
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -19,21 +26,24 @@ nav {
 
 .menu {
     font-size: 20px;
-    color: yellow;
+    color: rgb(255, 255, 255);
 }
 
 .menu:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 
 }
 
-.login-container {
+.menu-signup {
     /* border: 1px solid #555; */
     border-radius: 5px;
     background-color: rgb(149, 185, 20);
-    padding: 2px 15px;
-    color: black;
+    padding: 2px 15px;    
+}
+
+.menu-signup a:hover {
+     color: black;
 }
 
 
