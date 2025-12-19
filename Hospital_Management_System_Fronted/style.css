@@ -164,3 +164,40 @@ footer {
 .footer-title {
     color: yellow;
 }
+
+
+
+
+/* This is docDetails file here */
+
+.doctor-img img{
+ width: 200px;
+ height: 200px;
+ border-radius: 100px;
+}
+
+.doc-details-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 50px;
+    width: 75%;
+    margin: auto;
+
+}
+
+.doc-detail-btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(54, 117, 6);
+    color: rgb(212, 219, 15);
+    border-radius: 5px;
+}
+
+.doc-take-appt-btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(90, 227, 10);
+    color: rgb(35, 67, 3);
+    border-radius: 5px;
+}
